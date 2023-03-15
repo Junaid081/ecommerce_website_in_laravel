@@ -19,4 +19,4 @@ Route::get('/login', function () {
 });
  Route::post('user', [UserController::class, 'login']);
  Route::get('welcome', [ProductController::class, 'welcome']);
- #Route::view('welcome', 'welcome');
+ Route::view('products', 'products');
